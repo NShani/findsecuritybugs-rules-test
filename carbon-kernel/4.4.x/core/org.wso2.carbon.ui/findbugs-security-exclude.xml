@@ -1,0 +1,7 @@
+<FindBugsFilter>
+    <Match>
+        <Bug category="SECURITY" pattern="TRUST_BOUNDARY_VIOLATION"/>
+	<Class name="org.wso2.carbon.ui.AbstractCarbonUIAuthenticator" />
+	<Method name="getBackendUrl" />
+    </Match>
+</FindBugsFilter>
