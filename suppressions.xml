@@ -30,12 +30,9 @@
     <suppress checks="JavadocStyle" files=".*/src/.*/internal/.*" />
 
     <suppress checks="MethodNameCheck" files=".*/*CommandProvider.java" />
+    <suppress checks="getConstructInsertStr" files=".*/*CommandProvider.java" />
     <suppress checks="getConstructInsertStr" files=".*/*ConstructProviderClassBuilder.java" />
     <suppress checks="Regexp" files=".*/*CommandProvider.java" />
-
-
-
-org.ballerinalang.natives.annotation.processor.ConstructProviderClassBuilder
 
 
 
