@@ -3,3 +3,7 @@
         <Bug category="SECURITY"/>
     </Match>
 </FindBugsFilter>
+
+@edu.umd.cs.findbugs.annotations.SuppressWarnings(
+    value="HE_EQUALS_USE_HASHCODE", 
+    justification="I know what I'm doing")
